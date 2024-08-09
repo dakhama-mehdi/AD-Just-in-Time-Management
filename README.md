@@ -6,7 +6,7 @@
 
 ## Description 
 
-**FIM Identity Manager** is a free identity management tool designed to manage Privileged Access Management (PAM) on Active Directory.  
+**AD JIT Management** is a free identity management tool designed to manage Privileged Access Management (PAM) on Active Directory.  
 This tool allows you to add users to groups following the Just-In-Time (JIT) principle, ensuring time-limited access to sensitive resources.
 
 ## Features

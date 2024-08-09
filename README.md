@@ -1,6 +1,6 @@
 <h1 style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/ff348d9c-7ca3-4a70-a60f-4accdb6ce212" alt="left Image" width="100" height="100" />
   AD Juts-in-Time Management
-  <img src="https://github.com/user-attachments/assets/ff348d9c-7ca3-4a70-a60f-4accdb6ce212" alt="Right Image" width="100" height="100" />
 </h1>
 
 

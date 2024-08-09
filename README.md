@@ -1,6 +1,10 @@
-# FIM Identity Manager 
+<h1 style="display: flex; justify-content: space-between; align-items: center;">
+  FIM Identity Manager
+  <img src="https://github.com/user-attachments/assets/ff348d9c-7ca3-4a70-a60f-4accdb6ce212" alt="Right Image" width="100" height="100" />
+</h1>
 
-## Description <img src="https://github.com/user-attachments/assets/ff348d9c-7ca3-4a70-a60f-4accdb6ce212" alt="pngegg" width="150" hight="50" />
+
+## Description 
 
 **FIM Identity Manager** is a free identity management tool designed to manage Privileged Access Management (PAM) on Active Directory.  
 This tool allows you to add users to groups following the Just-In-Time (JIT) principle, ensuring time-limited access to sensitive resources.

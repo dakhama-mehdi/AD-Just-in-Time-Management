@@ -732,11 +732,11 @@ function Show-ChildForm_psf
 		# Vérifier si des résultats ont été trouvés
 		if ($compval)
 		{
-			Write-Host "Résultats trouvés : $($compval.Name)"
+			Write-Host "Résultats trouvés : $($compval.SamAccountName)"
 			$listbox1.Items.Clear()
 			foreach ($item in $compval)
 			{
-				$listbox1.Items.Add($item.Name)
+				$listbox1.Items.Add($item.SamAccountName)
 			}
 		}
 		else

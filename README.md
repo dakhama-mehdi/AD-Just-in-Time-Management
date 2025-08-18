@@ -4,12 +4,11 @@
 </h1>
 
 ---
+
+**AD JIT Management** is the easiest way to manage identities and privileged access (PAM) on Active Directory using the Just-In-Time (JIT) model.
+This free tool lets you temporarily add users to privileged groups, ensuring time-limited and secure access to sensitive resources, with a simple and intuitive interface.
+
 ![Image](https://github.com/user-attachments/assets/46b56aae-9f26-4311-bb83-72815421a906)
-
-## Description 
-
-**AD JIT Management** is a free identity management tool designed to manage Privileged Access Management (PAM) on Active Directory.  
-This tool allows you to add users to groups following the Just-In-Time (JIT) principle, ensuring time-limited access to sensitive resources.
 
 ## Features
 

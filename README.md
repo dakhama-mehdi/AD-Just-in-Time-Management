@@ -35,7 +35,7 @@ There is no need for installation. Simply follow these steps:
      - Open PowerShell.
      - Execute the script:
        ```powershell
-       .\FIM.ps1
+       .\ADJIT.ps1
        ```
 
 ## Usage

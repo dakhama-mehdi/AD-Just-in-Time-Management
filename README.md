@@ -27,7 +27,7 @@ It lets you temporarily add users to privileged groups, ensuring time-limited an
 There is no need for installation. Simply follow these steps:
 
 1. **Obtain the executable file or the PowerShell script**:
-   - You can either download the `.exe` file or copy the `FIM.ps1` script.
+   - You can either download the `.exe` file or copy the `ADJIT.ps1` script.
 
 2. **Run the file**:
    - If using the `.exe` file, simply double-click to execute.

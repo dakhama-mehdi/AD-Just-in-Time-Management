@@ -3,6 +3,8 @@
   AD Juts-in-Time Management
 </h1>
 
+---
+![Image](https://github.com/user-attachments/assets/eb40be0b-8c37-4d03-8c2e-c484d725f9d8)
 
 ## Description 
 

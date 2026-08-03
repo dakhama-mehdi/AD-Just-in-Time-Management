@@ -1,11 +1,9 @@
 <h1 style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/ff348d9c-7ca3-4a70-a60f-4accdb6ce212" alt="left Image" width="100" height="100" />
+  <img src="https://github.com/user-attachments/assets/ff348d9c-7ca3-4a70-a60f-4accdb6ce212" alt="left Image" width="100" height="60" />
   AD Just-in-Time Management for Tiering Model
 </h1>
 
----
-
-**AD Just-in-Time Management** is a free PowerShell WPF application designed to simplify the administration of privileged Active Directory accounts by granting **Just-in-Time (JIT)** access through native **Time-To-Live (TTL)** group memberships.
+**AD JIT Management** is a free PowerShell WPF application designed to simplify the administration of privileged Active Directory accounts by granting **Just-in-Time (JIT)** access through native **Time-To-Live (TTL)** group memberships.
 
 The tool helps reduce standing privileges and supports the implementation of Microsoft's administrative security recommendations, including the **Tiering Model**, by allowing administrators to grant temporary access to privileged groups through an intuitive graphical interface.
 
@@ -17,7 +15,7 @@ It also provides a dedicated Windows Event Log for auditing and tracing all JIT 
 
 - Graphical WPF interface for Just-in-Time (JIT) administration.
 - Native Active Directory Time-To-Live (TTL) group memberships.
-- Search and select Active Directory users and groups.
+- Search and select Active Directory users, groups and machines.
 - Temporary privileged group assignments.
 - Remaining TTL display for active memberships.
 - Configurable expiration date and duration.
@@ -70,6 +68,17 @@ There is no need for installation. Simply follow these steps:
 - Improve auditing and traceability through a dedicated Windows Event Log.
 - Simplify Active Directory administration with an intuitive WPF interface.
 - Rely entirely on native Microsoft technologies without third-party components.
+
+## Event IDs
+
+AD Just-in-Time Management records operations in the dedicated Windows Event Log using the following event IDs:
+
+| Event ID | Level | Description |
+|---|---|---|
+| `1001` | Information | A user or group was successfully added to an Active Directory group with a TTL. |
+| `1002` | Warning | A temporary member was successfully removed from the Active Directory group. |
+| `2001` | Error | An error occurred while adding a user or group to the Active Directory group. |
+| `2002` | Error | An error occurred while removing a temporary member from the Active Directory group. |
 
 ## Acknowledgements
 

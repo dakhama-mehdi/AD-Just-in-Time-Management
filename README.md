@@ -26,11 +26,8 @@ It also provides a dedicated Windows Event Log for auditing and tracing all JIT 
 
 ## Requirements
 
-Before using AD Just-in-Time Management, ensure that your Active Directory environment meets the following requirements:
-
 - Windows PowerShell 5.1.
 - RSAT Active Directory PowerShell module installed.
-- Active Directory forest functional level: **Windows Server 2016 or later**.
 - The **Privileged Access Management (PAM) optional feature** must be enabled in the Active Directory forest.
 - The account running the tool must have the appropriate delegation (for example **Write Members** or **Manager can update membership list**) on the target groups.
 - Local administrator privileges are required **only once** to create the dedicated Windows Event Log.

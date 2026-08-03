@@ -5,22 +5,37 @@
 
 ---
 
-**AD JIT Management** is a free tool to easily manage identities and privileged access (PAM) in Active Directory using the Just-In-Time (JIT) model through an intuitive interface.  
-It lets you temporarily add users to privileged groups, ensuring time-limited and secure access to sensitive resources.  
+**AD Just-in-Time Management** is a free PowerShell WPF application designed to simplify the administration of privileged Active Directory accounts by granting **Just-in-Time (JIT)** access through native **Time-To-Live (TTL)** group memberships.
 
-<img src="https://github.com/user-attachments/assets/41784e10-b6ee-4cbb-849d-9ce4102c9df6" width="400">
+The tool helps reduce standing privileges and supports the implementation of Microsoft's administrative security recommendations, including the **Tiering Model**, by allowing administrators to grant temporary access to privileged groups through an intuitive graphical interface.
+
+It also provides a dedicated Windows Event Log for auditing and tracing all JIT operations. 
+
+<img src=".\Pictures\ADJIT_Logs.png">
 
 ## Features
 
-- **Just-In-Time (JIT) Access Management**: Temporarily add users to Active Directory groups with a Time To Live (TTL).
-- **User-Friendly Interface**: A graphical user interface for simplified management.
-- **Error Logging and Handling**: Captures and displays errors for easier troubleshooting.
+- Graphical WPF interface for Just-in-Time (JIT) administration.
+- Native Active Directory Time-To-Live (TTL) group memberships.
+- Search and select Active Directory users and groups.
+- Temporary privileged group assignments.
+- Remaining TTL display for active memberships.
+- Configurable expiration date and duration.
+- Dedicated Windows Event Log for auditing JIT operations.
+- Standard user mode for viewing JIT memberships.
+- Robust error handling and user-friendly notifications.
+- No third-party components required.
 
-## Prerequisites
+## Requirements
 
-- **Windows** with RSAT AD Role installed.
-- The user must have delegation rights to modify group memberships in the relevant OU.
-- **No need for administrative rights.**
+Before using AD Just-in-Time Management, ensure that your Active Directory environment meets the following requirements:
+
+- Windows PowerShell 5.1.
+- RSAT Active Directory PowerShell module installed.
+- Active Directory forest functional level: **Windows Server 2016 or later**.
+- The **Privileged Access Management (PAM) optional feature** must be enabled in the Active Directory forest.
+- The account running the tool must have the appropriate delegation (for example **Write Members** or **Manager can update membership list**) on the target groups.
+- Local administrator privileges are required **only once** to create the dedicated Windows Event Log.
 
 ## Installation
 
@@ -40,10 +55,32 @@ There is no need for installation. Simply follow these steps:
 
 ## Usage
 
-- Launch the tool (either `.exe` or `.ps1`).
-- Use the interface to manage user access to Active Directory groups with a specified TTL.
-- Ensure the machine has the RSAT AD Role, and the user has the necessary delegation rights.
-- Monitor the output and logs for any errors or successful operations.
+1. Launch the application (`.exe` or `.ps1`).
+2. **The first time only**, open **File → Event Log** and accept the UAC prompt to create the dedicated Windows Event Log. This one-time operation requires local administrator privileges.
+3. Ensure the **RSAT Active Directory** tools are installed and that your account has the required Active Directory delegation to manage the target groups.
+4. Use the graphical interface to assign temporary (TTL) memberships to Active Directory groups.
+5. Monitor the dedicated Windows Event Log to review successful operations, warnings, and errors.
+
+## Why use AD Just-in-Time Management?
+
+- Reduce standing privileged access.
+- Implement native Just-in-Time (JIT) administration.
+- Support Microsoft's Tiering Model and least privilege recommendations.
+- Eliminate manual removal of temporary group memberships.
+- Improve auditing and traceability through a dedicated Windows Event Log.
+- Simplify Active Directory administration with an intuitive WPF interface.
+- Rely entirely on native Microsoft technologies without third-party components.
+
+## Acknowledgements
+
+Special thanks to the following people and communities for their support, expertise, and contributions:
+
+- **Guillaume MATHIEU** – Co-founder of the **Harden** community, for his guidance and valuable advice throughout the project.
+ - Alain Cuisenier
+ - https://www.it-connect.fr/ 
+ - [https://www.doctorkloud](https://www.doctorkloud.fr/)
+ - https://hardenad.net/
+
 
 ## Contributing
 

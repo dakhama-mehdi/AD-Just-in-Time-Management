@@ -88,6 +88,9 @@ Special thanks to the following people and communities for their support, expert
  - https://hardenad.net/
 
 
+<img src=".\Pictures\ADjit_1.png" >
+<img src=".\Pictures\ADJIT_Logs.png" >
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.  

@@ -9,30 +9,20 @@
 ![GitHub stars](https://img.shields.io/github/stars/dakhama-mehdi/AD-Just-in-Time-Management)
 ![GitHub last commit](https://img.shields.io/github/last-commit/dakhama-mehdi/AD-Just-in-Time-Management)
 
-**Active Directory JIT Management** is a free PowerShell WPF application designed to simplify the administration of privileged Active Directory accounts by granting **Just-in-Time (JIT)** access through native **Time-To-Live (TTL)** group memberships.
-
-The tool helps reduce standing privileges and supports the implementation of Microsoft's administrative security recommendations, including the **Tiering Model**, by allowing administrators to grant temporary access to privileged groups through an intuitive graphical interface.
-
-It also provides a dedicated Windows Event Log for auditing and tracing all JIT operations. 
+**AD JIT Management** is a free tool to easily manage identities and privileged access (PAM) in Active Directory using the Just-In-Time (JIT) model through an intuitive interface.  
+It lets you temporarily add users to privileged groups, ensuring time-limited and secure access to sensitive resource
 
 <img src=".\Pictures\ADJIt_2.png" >
 
 ## Features
 
-- Graphical WPF interface for Just-in-Time (JIT) administration.
-- Native Active Directory Time-To-Live (TTL) group memberships.
-- Search and select Active Directory users, groups and machines.
-- Temporary privileged group assignments.
-- Remaining TTL display for active memberships.
-- Configurable expiration date and duration.
-- Dedicated Windows Event Log for auditing JIT operations.
-- Standard user mode for viewing JIT memberships.
-- Robust error handling and user-friendly notifications.
-- No third-party components required.
+- Temporarily add users to Active Directory groups with a Time To Live (TTL).
+- Showing TTL members on group, and remove temporarily users from groups
+- User-Friendly Interface: A graphical user interface for simplified management.
+- Error Logging and Handling: Captures and displays errors for easier troubleshooting.
 
 ## Requirements
 
-- Windows PowerShell 5.1.
 - RSAT Active Directory PowerShell module installed.
 - The **Privileged Access Management (PAM) optional feature** must be enabled in the Active Directory.
 - The account running the tool must have the appropriate delegation (for example **Write Members** or **Manager can update membership list**) on the target groups.

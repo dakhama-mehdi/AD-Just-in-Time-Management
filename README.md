@@ -87,8 +87,6 @@ Special thanks to the following people and communities for their support, expert
  - [https://www.doctorkloud](https://www.doctorkloud.fr/)
  - https://hardenad.net/
 
-
-<img src=".\Pictures\ADjit_1.png" >
 <img src=".\Pictures\ADJIT_Logs.png" >
 
 ## Contributing

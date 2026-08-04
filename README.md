@@ -86,6 +86,8 @@ Special thanks to the following people and communities for their support, expert
 
 <img src=".\Pictures\ADJIT_Logs.png" >
 
+<img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/2345f5b5-33a2-40e6-a821-4aed93a373bf" />
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.  

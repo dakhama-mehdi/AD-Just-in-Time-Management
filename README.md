@@ -9,7 +9,7 @@ The tool helps reduce standing privileges and supports the implementation of Mic
 
 It also provides a dedicated Windows Event Log for auditing and tracing all JIT operations. 
 
-<img src=".\Pictures\ADJIT_Logs.png">
+<img src=".\Pictures\ADJIt_2.png" >
 
 ## Features
 
@@ -28,7 +28,7 @@ It also provides a dedicated Windows Event Log for auditing and tracing all JIT 
 
 - Windows PowerShell 5.1.
 - RSAT Active Directory PowerShell module installed.
-- The **Privileged Access Management (PAM) optional feature** must be enabled in the Active Directory forest.
+- The **Privileged Access Management (PAM) optional feature** must be enabled in the Active Directory.
 - The account running the tool must have the appropriate delegation (for example **Write Members** or **Manager can update membership list**) on the target groups.
 - Local administrator privileges are required **only once** to create the dedicated Windows Event Log.
 

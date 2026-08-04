@@ -83,6 +83,7 @@ Special thanks to the following people and communities for their support, expert
 
 - **Guillaume MATHIEU** – Co-founder of the **Harden** community, for his guidance and valuable advice throughout the project.
  - Alain Cuisenier
+ - Andreas Hartig
  - https://www.it-connect.fr/ 
  - [https://www.doctorkloud](https://www.doctorkloud.fr/)
  - https://hardenad.net/

@@ -3,6 +3,12 @@
   AD Just-in-Time Management for Tiering Model
 </h1>
 
+![License](https://img.shields.io/github/license/dakhama-mehdi/AD-Just-in-Time-Management)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![GitHub stars](https://img.shields.io/github/stars/dakhama-mehdi/AD-Just-in-Time-Management)
+![GitHub last commit](https://img.shields.io/github/last-commit/dakhama-mehdi/AD-Just-in-Time-Management)
+
 **Active Directory JIT Management** is a free PowerShell WPF application designed to simplify the administration of privileged Active Directory accounts by granting **Just-in-Time (JIT)** access through native **Time-To-Live (TTL)** group memberships.
 
 The tool helps reduce standing privileges and supports the implementation of Microsoft's administrative security recommendations, including the **Tiering Model**, by allowing administrators to grant temporary access to privileged groups through an intuitive graphical interface.

@@ -12,14 +12,16 @@
 **AD JIT Management** is a free tool to easily manage identities and privileged access (PAM) in Active Directory using the Just-In-Time (JIT) model through an intuitive interface.  
 It lets you temporarily add users to privileged groups, ensuring time-limited and secure access to sensitive resource
 
-<img src=".\Pictures\ADJIt_2.png" >
+<img src="./Pictures/ADJIt_2.png" >
 
 ## Features
 
-- Temporarily add users to Active Directory groups with a Time To Live (TTL).
-- Showing TTL members on group, and remove temporarily users from groups
-- User-Friendly Interface: A graphical user interface for simplified management.
-- Error Logging and Handling: Captures and displays errors for easier troubleshooting.
+- Simple, intuitive interface, quick to learn, no unnecessary complexity.
+- Supports all member types: users, computers, and groups.
+- isplays group information along with members currently holding an active TTL.
+- Confirmation before action, a confirmation prompt is shown before any add or remove operation.
+- Full logging of all actions performed.
+- Simple and fast search for users, computers, and groups.
 
 ## Requirements
 
@@ -84,7 +86,7 @@ Special thanks to the following people and communities for their support, expert
  - [https://www.doctorkloud](https://www.doctorkloud.fr/)
  - https://hardenad.net/
 
-<img src=".\Pictures\ADJIT_Logs.png" >
+<img src="./Pictures/ADJIT_Logs.png" >
 
 <img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/2345f5b5-33a2-40e6-a821-4aed93a373bf" />
 
